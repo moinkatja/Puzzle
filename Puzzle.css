@@ -21,7 +21,7 @@ body {
 }
 
 img {
-    width: 80vw;
+    width: 70vw;
     border-radius: 5px;
     -webkit-filter: grayscale(0.2);
             filter: grayscale(0.2);

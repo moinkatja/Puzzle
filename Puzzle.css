@@ -8,6 +8,7 @@ body {
 
 #sortable {
     padding: 0;
+     max-height: 100vh;
 }
 
 #puzzle {
@@ -22,6 +23,8 @@ body {
 
 img {
     width: 70vw;
+    max-width:80vw;
+    max-height: 10vh;
     border-radius: 5px;
     -webkit-filter: grayscale(0.2);
             filter: grayscale(0.2);

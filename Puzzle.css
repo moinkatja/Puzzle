@@ -6,11 +6,6 @@ body {
     font-family: 'Oxygen Mono', monospace;
 }
 
-#sortable {
-    padding: 0;
-     max-height: 100vh;
-}
-
 #puzzle {
     font-size: 2rem;
     padding: 15px;
@@ -21,14 +16,31 @@ body {
     margin: 0 auto;
 }
 
+#sortable {
+    padding-left:0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-height: 100vh;
+}
+
 img {
-    width: 70vw;
-    max-width:80vw;
-    max-height: 10vh;
+width: 90vw;
+margin-bottom: 5px;
+max-width:800px;
+min-height: 60px;
     border-radius: 5px;
     -webkit-filter: grayscale(0.2);
             filter: grayscale(0.2);
 }
+
 
 .btn {
     font-family: 'Oxygen Mono', monospace;
